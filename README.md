@@ -23,9 +23,23 @@ We use [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200.html), [Fl
 * Follow [AttnGAN](https://github.com/taoxugit/AttnGAN) to pre-train the DAMSM model and save it to `DAMSMencoders/`.
 * Divide the dataset into train/test set. Run `python train.py`
 
+## Testing
+* Run `python test.py --checkpoint path_to_checkpoint --save_dir path_to_save_dir`
+
 ## Text Guided Controllable Face Inpainting
 <div align=center><img src="./figure/faceInpainting.PNG" width="90%" height="90%" ></div>
 
+## <span id="jump1">Citation</span>
+```
+@InProceedings{Lin_2020_MMFL,
+    Author = {Qing Lin and Bo Yan and Jichun Li and Weimin Tan},
+    Title = {MMFL: Multimodal Fusion Learning for Text-Guided Image Inpainting},
+    booktitle = {Proceedings of the 28th ACM International Conference on Multimedia (MM ’20)},
+    month = {October},
+    year = {2020}
+    
+}
+```
 
 ## Acknowledgments
 We benefit a lot from [CSA](https://github.com/KumapowerLIU/CSA-inpainting), [CSA_pytorch](https://github.com/Yukariin/CSA_pytorch) and [AttnGAN](https://github.com/taoxugit/AttnGAN).
